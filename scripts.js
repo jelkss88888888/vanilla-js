@@ -47,3 +47,53 @@ function fruit(apple, banana, grape) {
 
 fruit("hi","hello","bye");
 */
+
+/* return
+function sayHello(name, something) {
+return `Hello ${name}, who are you? you are ${something}?`;
+};
+
+const greetQ = sayHello('Q', 'my friend');
+
+console.log(greetQ);
+*/
+
+/* return
+const doTheMath = {
+    plus : function(a,b) {
+        return a+b;
+    },
+    minus : function(a,b) {
+        return a-b;
+    },
+    multiply : function(a,b) {
+        return a*b;
+    },
+    divine : function(a,b) {
+        return a/b;
+    },
+    square : function(a,b) {
+        return a**b;
+    }
+};
+
+const plus = doTheMath.plus(5,5);
+const minus = doTheMath.minus(10,5);
+const multiply = doTheMath.multiply(5,5);
+const divine = doTheMath.divine(10,2);
+const square = doTheMath.square(2,3);
+
+console.log(doTheMath);
+
+console.log(plus);
+console.log(minus);
+console.log(multiply);
+console.log(divine);
+console.log(square);
+*/
+
+const getId = document.getElementById("title");
+
+console.log(getId);
+
+getId.innerHTML = "fuck";
