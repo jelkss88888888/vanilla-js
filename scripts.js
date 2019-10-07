@@ -92,8 +92,73 @@ console.log(divine);
 console.log(square);
 */
 
-const getId = document.getElementById("title");
+/*
+const getId = document.querySelector("#title");
 
 console.log(getId);
 
-getId.innerHTML = "fuck";
+getId.style.backgroundColor = "yellow";
+
+getId.innerHTML = "funky";
+*/
+
+/*
+const wtf = document.querySelector("#title");
+
+console.log(wtf);
+
+function clickHandler() {
+    title.style.color = "red";
+//console.log(event);
+    //console.log("oops");
+}
+
+title.addEventListener("click", clickHandler);
+*/
+
+/*
+if(5-3 < 1) {
+    console.log("you're right");
+} else if (10 > 15) {
+    console.log("Hmm");
+} else {
+    console.log("WTH?");
+};
+*/
+
+/*
+const age = prompt ("what's you're age?");
+
+if(age >=18 && age <= 20) {
+    console.log("Stay calm");
+} else if(age >20){
+    console.log("cheers");
+} else {
+    console.log("not yet, kid")
+};
+*/
+
+const title = document.querySelector('#title');
+
+const BASE_COLOR = "rgb(89, 98, 117)";
+const OTHER_COLOR = "red";
+
+function clickHandler() {
+    if(title.style.color === BASE_COLOR) {
+        title.style.color = OTHER_COLOR;
+    } else {
+        title.style.color = BASE_COLOR;
+    }
+}
+
+
+
+title.style.color = BASE_COLOR;
+title.addEventListener("click", clickHandler);
+
+/*
+function init(){
+}
+init();
+*/
+
